@@ -15,7 +15,7 @@ main:
     url: /experience/
     
   - title: "CV"
-    url: /files/Taeil_Kim_CV.pdf/
+    url: /files/Taeil_Kim_CV.pdf
     
   - title: "Contact"
     url: /contact/
