@@ -6,4 +6,4 @@ author_profile: true
 
 You can download my CV here:
 
-[Download CV](/Taeil_Kim_CV.pdf)
+[Download CV](/files/Taeil_Kim_CV.pdf)
