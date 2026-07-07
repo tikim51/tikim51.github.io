@@ -52,3 +52,29 @@
     width: calc(83.0508474576% - 48px);
   }
 }
+
+/* Profile image and sidebar text alignment */
+@media (min-width: 57.8125em) {
+  .sidebar .author__avatar {
+    text-align: center;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 195px;
+    width: 110%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .sidebar .author__content {
+    text-align: center;
+  }
+
+  .sidebar .author__urls {
+    text-align: center;
+  }
+
+  .sidebar .author__urls li {
+    text-align: center;
+  }
+}
