@@ -10,7 +10,7 @@ author_profile: true
   </a>
 </div>
 
-<div style="border: 1px solid #d0d7de; border-radius: 6px; overflow: hidden; background: #f6f8fa;">
+<div style="border: 1px solid #d0d7de; border-radius: 6px; overflow: hidden; background: #f6f8fa; width: 115%; max-width: none;">
   <object data="/files/Taeil_Kim_CV.pdf" type="application/pdf" width="100%" height="760">
     <p style="padding: 1rem; margin: 0;">
       Your browser cannot display the PDF preview.
