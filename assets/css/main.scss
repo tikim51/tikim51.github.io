@@ -38,10 +38,7 @@
     "layout/json_cv"
 ;
 
-body {
-  font-size: 0.55rem;
+.markdown-body {
+  font-size: 0.85rem !important;
   line-height: 1.6;
-}
-.col-md-9 {
-  padding-left: 1cm !important;
 }
