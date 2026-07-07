@@ -38,15 +38,17 @@
     "layout/json_cv"
 ;
 
-/* About/body text */
-.page__content {
-  font-size: 0.8rem;
+/* About page body text */
+.page .page__inner-wrap .page__content p,
+.page .page__inner-wrap .page__content li,
+.page .page__inner-wrap .page__content dl {
+  font-size: 0.78rem !important;
   line-height: 1.65;
 }
 
-/* Space between profile sidebar and main text */
-@media (min-width: 1024px) {
-  .page {
-    padding-left: 1cm;
+/* Add about 1cm more space between profile and body */
+@media (min-width: 57.8125em) {
+  article.page {
+    padding-left: calc(4.2372881356% + 1cm);
   }
 }
