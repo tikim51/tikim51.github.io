@@ -42,13 +42,13 @@
 .page .page__inner-wrap .page__content p,
 .page .page__inner-wrap .page__content li,
 .page .page__inner-wrap .page__content dl {
-  font-size: 0.78rem !important;
+  font-size: 0.85rem !important;
   line-height: 1.65;
 }
 
-/* Add about 1cm more space between profile and body */
+/* Add space between profile sidebar and main article */
 @media (min-width: 57.8125em) {
   article.page {
-    padding-left: calc(4.2372881356% + 1cm);
+    width: calc(83.0508474576% - 38px);
   }
 }
