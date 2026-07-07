@@ -38,7 +38,15 @@
     "layout/json_cv"
 ;
 
-.page__content p {
-  font-size: 0.85rem !important;
-  line-height: 1.6 !important;
+/* About/body text */
+.page__content {
+  font-size: 0.8rem;
+  line-height: 1.65;
+}
+
+/* Space between profile sidebar and main text */
+@media (min-width: 1024px) {
+  .page {
+    padding-left: 1cm;
+  }
 }
