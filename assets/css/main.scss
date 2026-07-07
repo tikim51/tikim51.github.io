@@ -38,6 +38,13 @@
     "layout/json_cv"
 ;
 
+@media (min-width: 57.8125em) {
+  #site-nav.greedy-nav .visible-links > li:first-child a {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
 /* About page body text */
 .page .page__inner-wrap .page__content p,
 .page .page__inner-wrap .page__content li,
@@ -114,7 +121,7 @@
 
   #site-nav.greedy-nav .visible-links > li:first-child {
     position: fixed;
-    left: 44vw;
+    left: 46vw;
     top: 0.72rem;
     transform: translateX(-50%);
     z-index: 30;
